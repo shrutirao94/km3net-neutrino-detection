@@ -5,7 +5,7 @@ import pandas as pd
 read the original noise dataset (without x,y,z,dx,dy & dz)
 """
 
-noise = pd.read_csv("data/noise.csv")
+noise = pd.read_csv("../../data/raw/background_noise.csv")
 
 """
 add a column containing the corresponding id in the positions array. The
