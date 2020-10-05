@@ -20,7 +20,7 @@ def parse_detx(filename, pmt2index):
     return positions
 
 
-positions = parse_detx("data/noise.detx", lambda pmt: pmt - 1)
+positions = parse_detx("../../data/noise.detx", lambda pmt: pmt - 1)
 
 
 # gens = k40gen.Generators(21341, 1245, [7000., 700., 70., 0.])
